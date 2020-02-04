@@ -5,11 +5,12 @@ body {
 }
 
 header{
-    background: #357
+    background: #357;
 }
 
 .container{
-    width: 50%
+    width: 90%;
+    display: inline-block;
 }
 
 nav{
