@@ -10,3 +10,9 @@ header {
     display: flex;
     color: #222;
 }
+
+div.h1Container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
