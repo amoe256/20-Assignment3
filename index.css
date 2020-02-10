@@ -9,10 +9,10 @@ header {
     background: #fffae5;
     display: flex;
     color: #222;
+    width: 80%;
+    margin: auto;
 }
 
-div.h1Container{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+div.header_class{
+    display: inline-block;
 }
