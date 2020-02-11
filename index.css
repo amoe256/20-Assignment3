@@ -3,18 +3,14 @@ body {
     background: #fffae5;
     font-family: 'Martel Sans', sans-serif;
     margin: 0;
-    margin-left: 250px;
-    margin-right: 250px;
 }
 
-div.header_container {
-    margin: 0 auto;
-}
-
-header::after {
-    content: ' ';
-    display: table;
-    clear: both;
+div.header {
+    border-bottom-style: solid;
+    position: fixed;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 h1 {
@@ -49,8 +45,10 @@ nav ul li a:hover {
 }
 
 div.info {
-    padding-top: 50px;
-    width: 500px;
+    margin-top: 100px;
+    width: 600px;
+    float: left;
+    margin-left: 20%;
 }
 
 h2 {
@@ -75,4 +73,14 @@ ul.hours-list {
     padding: 0;
     padding-left: 100px;
     list-style: none;
+}
+
+div.image-container{
+    float: right;
+    padding-top: 100px;
+    margin-right: 20%;
+}
+
+img.storefront {
+    display: block;
 }
