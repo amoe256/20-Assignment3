@@ -141,10 +141,11 @@ img.storefront {
     h1 {
         font-size: 16px;
         padding-top: 45px;
+        margin-left: 20px;
     }
 
     nav {
-        float: left;
+        float: right;
     }
 
     nav ul {
