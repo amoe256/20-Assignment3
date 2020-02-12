@@ -5,10 +5,11 @@ body {
     margin: 0;
 }
 
-div.header {
+div.header-container {
+    background: #fffae5;
+    width: 60%;
     border-bottom-style: solid;
     position: fixed;
-    width: 60%;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -22,6 +23,7 @@ h1 {
 nav {
     float: right;
     padding-top: 40px;
+
 }
 
 nav ul {
@@ -77,10 +79,60 @@ ul.hours-list {
 
 div.image-container{
     float: right;
-    padding-top: 100px;
+    padding-top: 30px;
+    margin-top: 100px;
     margin-right: 20%;
 }
 
 img.storefront {
     display: block;
+}
+
+@media(max-width: 1670px) {
+    div.header-container {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    div.info {
+        width: 400px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    div.image-container {
+        margin-right: 10%;
+    }
+}
+
+@media(max-width: 1145px) {
+    div.header-container {
+        margin: 0;
+        width: 100%;
+    }
+
+    div.image-container {
+        float: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    nav {
+        padding-top: 10px;
+    }
+    nav ul li {
+        display: block;
+    }
+}
+
+@media(max-width: 620px) {
+    h1 {
+        width: 270px;
+    }
+    div.info {
+        margin-top: 200px;
+    }
 }
