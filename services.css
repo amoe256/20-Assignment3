@@ -58,17 +58,6 @@ h2 {
     font-weight: 100;
 }
 
-ul.services-list {
-    margin: 0;
-    padding: 0;
-    float: left;
-}
-
-ul.services-list li {
-    margin: 0;
-    text-decoration: none;
-}
-
 @media(max-width: 1670px) {
     div.header-container {
         width: 80%;
