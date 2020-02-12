@@ -164,7 +164,6 @@ img.storefront {
         width: 280px;
         margin-top: 130px;
         font-size: 12px;
-        margin-right: 40px;
     }
 
     h2 {
@@ -173,8 +172,7 @@ img.storefront {
 
     div.image-container {
         width: 280px;
-        margin-left: 2%;
-        float: right;
+        margin-right: 40px;
     }    
 
     img.map {
