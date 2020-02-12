@@ -10,7 +10,6 @@
         Hillside Hardware
     </title>
     <link href="https://fonts.googleapis.com/css?family=Martel+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="services.css"/>
     <style type="text/css">
         body {
             background: #fffae5;
@@ -69,6 +68,69 @@
         h2 {
             font-size: 25px;
             font-weight: 100;
+        }
+        @media(max-width: 1670px) {
+            div.header-container {
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            div.info {
+                width: 400px;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+        }
+
+        @media(max-width: 1145px) {
+            div.header-container {
+                margin: 0;
+                width: 100%;
+            }
+            nav {
+                padding-top: 10px;
+            }
+            nav ul li {
+                display: block;
+            }
+        }
+
+        @media(max-width: 620px) {
+            h1 {
+                width: 270px;
+            }
+            div.info {
+                margin-top: 150px;
+            }
+        }
+
+        @media(max-width: 450px) {
+            h1 {
+                font-size: 16px;
+                padding-top: 45px;
+                margin-left: 20px;
+            }
+            nav {
+                float: right;
+            }
+            nav ul {
+                padding-left: 0;
+            }
+            nav ul li {
+                font-size: small;
+                line-height: 20px;
+                padding-left: 0;
+                margin-left: 0;
+                padding-top: 10px;
+            }
+            div.info {
+                width: 280px;
+                margin-top: 130px;
+                font-size: 12px;
+            }
+            h2 {
+                font-size: 14px;
+            }
         }
     </style>
 </head>
