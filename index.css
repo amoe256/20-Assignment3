@@ -133,6 +133,50 @@ img.storefront {
         width: 270px;
     }
     div.info {
-        margin-top: 200px;
+        margin-top: 150px;
+    }
+}
+
+@media(max-width: 450px) {
+    h1 {
+        font-size: 16px;
+    }
+
+    nav {
+        float: left;
+    }
+
+    nav ul {
+        padding-left: 0;
+    }
+
+    nav ul li {
+        font-size: small;
+        line-height: 20px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    div.info {
+        width: 280px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 75px;
+    }
+
+    div.image-container {
+        width: 280px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }    
+
+    img.map {
+        width: 280px;
+        height: auto; 
+    }
+
+    img.storefront {
+        width: 280px;
+        height: auto; 
     }
 }
